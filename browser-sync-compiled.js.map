@@ -1,0 +1,1 @@
+{"version":3,"sources":["browser-sync.js"],"names":[],"mappings":";;AAAA,IAAI,cAAc,QAAQ,cAAR,CAAlB;AACA,OAAO,OAAP,GAAiB,YAAY;AAC5B,QAAO,gBADqB;AAE5B,QAAO,CAAC,YAAD;AAFqB,CAAZ,CAAjB","file":"browser-sync-compiled.js","sourcesContent":["var browserSync = require('browser-sync');\nmodule.exports = browserSync({\n\tproxy: 'localhost:3000',\n\tfiles: ['app/**/*.*']\n});\n"]}
