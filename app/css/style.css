@@ -1,0 +1,56 @@
+.user-container{
+	font-family:'Roboto', sans-serif;
+	color: hsl(210, 15%, 19%);
+	width: 277px;
+    height: 524px;
+	padding:0;
+	margin:0;
+}
+
+.user-profile {
+	text-align:center;
+	border-bottom: 1px solid #e5e5e5;
+}
+.user-profile__avatar{
+	padding:1em 0;
+}
+.user-profile__fullname {
+	color: hsl(210, 25%, 22%);
+	font-size: 1.3em;
+	font-weight: 500;
+
+	}
+
+.user-profile__address {
+	color: hsl(210, 5%, 49%);
+	font-weight: 300;
+	font-size: 0.9em;
+	padding: 0.5em 0 2em 0;
+}
+
+.user-details {
+	margin:1em 2em;
+
+	}
+.detail{
+	color: hsl(210, 5%, 49%);
+	font-size: 13px;
+	line-height: 4em;
+	border-bottom: 1px solid #e5e5e5;
+	font-weight: 300;
+	width:100%;
+ 
+}
+.detail_no-border-bottom{
+    border-bottom:0;
+
+}
+
+.detail__name{
+	font-weight:bold;
+
+}
+.detail__value{
+	float: right;
+
+}
